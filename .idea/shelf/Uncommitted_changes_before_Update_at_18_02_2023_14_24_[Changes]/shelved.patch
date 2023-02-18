@@ -1,0 +1,165 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a7fb1113-fe08-4fce-b40e-0ff62d3c9d8f\" name=\"Changes\" comment=\"Create Project\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/bees/bees.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"importingSettings\">\r\n      <MavenImportingSettings>\r\n        <option name=\"workspaceImportEnabled\" value=\"true\" />\r\n      </MavenImportingSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2LtocNhibAvgdOD0qq0Xzl2og4c\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"settings.editor.selected.configurable\": \"vcs.Git\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a7fb1113-fe08-4fce-b40e-0ff62d3c9d8f\" name=\"Changes\" comment=\"\" />\r\n      <created>1676699821041</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1676699821041</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Create Project\">\r\n      <created>1676700019991</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676700019991</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Create Project\">\r\n      <created>1676700038179</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676700038179</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\r\n                <map>\r\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"master\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Create Project\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Create Project\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,14 +4,30 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="a7fb1113-fe08-4fce-b40e-0ff62d3c9d8f" name="Changes" comment="Create Project">
+-      <change afterPath="$PROJECT_DIR$/src/main/bees/bees.java" afterDir="false" />
++    <list default="true" id="a7fb1113-fe08-4fce-b40e-0ff62d3c9d8f" name="Changes" comment="Building a project arch">
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/laboratory/application/Habitat.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/laboratory/application/IEventHandler.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/laboratory/bees/Drone.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/laboratory/bees/IBehaviour.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/laboratory/bees/Worker.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/laboratory/bees/aObject.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/laboratory/application/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laboratory/application/MainApplication.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/laboratory/application/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laboratory/application/MainController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/laboratory/bees/Object.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Interface" />
++        <option value="Class" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -36,6 +52,7 @@
+   "keyToString": {
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "settings.editor.selected.configurable": "vcs.Git"
+   }
+ }]]></component>
+@@ -62,7 +79,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1676700038179</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Building a project arch">
++      <created>1676701131330</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1676701131330</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -99,6 +123,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Create Project" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Create Project" />
++    <MESSAGE value="Building a project arch" />
++    <option name="LAST_COMMIT_MESSAGE" value="Building a project arch" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/com/laboratory/bees/aObject.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/laboratory/bees/aObject.java b/src/main/java/com/laboratory/bees/aObject.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/laboratory/bees/aObject.java	
+@@ -0,0 +1,6 @@
++package com.laboratory.bees;
++
++abstract class aObject {
++    public abstract int Create();
++
++}
+Index: src/main/java/com/laboratory/application/IEventHandler.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/laboratory/application/IEventHandler.java b/src/main/java/com/laboratory/application/IEventHandler.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/laboratory/application/IEventHandler.java	
+@@ -0,0 +1,4 @@
++package com.laboratory.application;
++
++public interface IEventHandler {
++}
+Index: src/main/java/com/laboratory/application/Habitat.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/laboratory/application/Habitat.java b/src/main/java/com/laboratory/application/Habitat.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/laboratory/application/Habitat.java	
+@@ -0,0 +1,5 @@
++package com.laboratory.application;
++
++public class Habitat {
++
++}
+Index: src/main/java/com/laboratory/bees/IBehaviour.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/laboratory/bees/IBehaviour.java b/src/main/java/com/laboratory/bees/IBehaviour.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/laboratory/bees/IBehaviour.java	
+@@ -0,0 +1,5 @@
++package com.laboratory.bees;
++
++public interface IBehaviour {
++
++}
+Index: src/main/java/com/laboratory/bees/Worker.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/laboratory/bees/Worker.java b/src/main/java/com/laboratory/bees/Worker.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/laboratory/bees/Worker.java	
+@@ -0,0 +1,4 @@
++package com.laboratory.bees;
++
++public class Worker {
++}
+Index: src/main/java/com/laboratory/bees/Drone.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/laboratory/bees/Drone.java b/src/main/java/com/laboratory/bees/Drone.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/laboratory/bees/Drone.java	
+@@ -0,0 +1,4 @@
++package com.laboratory.bees;
++
++public class Drone {
++}

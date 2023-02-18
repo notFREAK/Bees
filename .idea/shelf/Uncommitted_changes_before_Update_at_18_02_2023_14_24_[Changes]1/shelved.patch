@@ -1,0 +1,53 @@
+Index: src/main/java/com/laboratory/application/HelloController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/laboratory/application/HelloController.java b/src/main/java/com/laboratory/application/MainController.java
+rename from src/main/java/com/laboratory/application/HelloController.java
+rename to src/main/java/com/laboratory/application/MainController.java
+--- a/src/main/java/com/laboratory/application/HelloController.java	
++++ b/src/main/java/com/laboratory/application/MainController.java	
+@@ -3,7 +3,7 @@
+ import javafx.fxml.FXML;
+ import javafx.scene.control.Label;
+ 
+-public class HelloController {
++public class MainController {
+     @FXML
+     private Label welcomeText;
+ 
+Index: src/main/java/com/laboratory/application/HelloApplication.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/laboratory/application/HelloApplication.java b/src/main/java/com/laboratory/application/MainApplication.java
+rename from src/main/java/com/laboratory/application/HelloApplication.java
+rename to src/main/java/com/laboratory/application/MainApplication.java
+--- a/src/main/java/com/laboratory/application/HelloApplication.java	
++++ b/src/main/java/com/laboratory/application/MainApplication.java	
+@@ -7,10 +7,10 @@
+ 
+ import java.io.IOException;
+ 
+-public class HelloApplication extends Application {
++public class MainApplication extends Application {
+     @Override
+     public void start(Stage stage) throws IOException {
+-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
++        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("hello-view.fxml"));
+         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+         stage.setTitle("Hello!");
+         stage.setScene(scene);
+Index: src/main/java/com/laboratory/bees/Object.java
+===================================================================
+diff --git a/src/main/java/com/laboratory/bees/Object.java b/src/main/java/com/laboratory/bees/Object.java
+deleted file mode 100644
+--- a/src/main/java/com/laboratory/bees/Object.java	
++++ /dev/null	
+@@ -1,4 +0,0 @@
+-package com.laboratory.bees;
+-
+-public class Object {
+-}
