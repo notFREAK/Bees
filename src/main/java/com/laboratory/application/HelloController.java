@@ -1,4 +1,4 @@
-package com.laboratory.bees;
+package com.laboratory.application;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

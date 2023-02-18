@@ -1,4 +1,4 @@
-package com.laboratory.bees;
+package com.laboratory.application;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

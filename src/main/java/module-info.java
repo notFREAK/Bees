@@ -11,6 +11,6 @@ module com.laboratory.bees {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.laboratory.bees to javafx.fxml;
-    exports com.laboratory.bees;
+    opens com.laboratory.application to javafx.fxml;
+    exports com.laboratory.application;
 }
